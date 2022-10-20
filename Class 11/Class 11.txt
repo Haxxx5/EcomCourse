@@ -1,0 +1,29 @@
+*FOR LOOPS*
+For loops in JS may have 3 inputs: 
+For ("E1";"E2";"E3") 
+where:
+E1 is executed (one time) before the execution of the code block.
+E2 defines the condition for executing the code block.
+E3 is executed (every time) after the code block has been executed.
+
+*Data cells in JS*
+In JS you have to define your data cells before using them.
+In Script Mode if those data cells are not defined the program will fail
+
+There are multiple ways to define data cells:
+
+* var = an old definition that defines a global variable.
+* let = scope variable, a variable that is defined only on a single program unit.
+* const = a constant value that one cannot change
+
+\\ As a mote: It is not recomanded to define global variables when working on a large bit of code//
+
+*Boolien*
+=== asks "strictly equals including the same type" of variable.
+== asks equal but not neceserally of the same type.
+
+5 == `5` true
+5 === `5` false
+
+\\ it is recomanded to use "strictly equals" more than just the equals//
+

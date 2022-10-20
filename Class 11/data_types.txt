@@ -1,0 +1,11 @@
+\\Data types in JS//
+
+* string = 
+* Boolean = a cell containing true or false which can be used in if statements.
+* Undefined = when a variable is declared but is not given a value.
+* null = a perspesfully empty variable.
+* list [] = a single cell containing multiple elements. 
+    - JS is 0 indexed meaning that the first element of a list is indexed 0.
+    - to call elements in a list you use the name of the list and [] right after it, with the index number
+    - You can call an index in a list that is undeifned, put in values and JS will fill the rest of the list with empty cells
+    
