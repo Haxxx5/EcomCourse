@@ -1,0 +1,5 @@
+*Topic*: Loops within loops and breaking out
+
+using an infinite while loop [while(true)] you may use ${break} and ${continue}
+break goes to the line right after the end of the loop
+continue goes to the next itteration by jumping to the first line of the loopaw

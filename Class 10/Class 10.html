@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Ex1: input a number of grades, break if grade == -1. 
+        /*
+        x=parseInt(prompt("Enter a grade (enter -1 to print):"))
+        count=0
+        sum=0
+        while (x!=-1){
+            count++
+            sum+=x   
+            document.write(`${count}: ${x}<br>`)   
+            x=parseInt(prompt("Enter a grade (enter -1 to print):"))       
+        }
+        document.write(`you entered ${count} grades, avreging ${sum/count}`)
+        */
+       /*
+        count=0
+        sum=0
+        while (true){
+            x=parseInt(prompt("Enter a grade (enter -1 to print):"))
+            if(x==-1) {break}
+            if(x>100) {continue}
+                count++
+                sum+=x   
+                document.write(`${count}: ${x}<br>`)   
+                       
+        }
+        document.write(`you entered ${count} grades, avreging ${sum/count}`)
+        */
+       //Ex3= prompt a number from the user
+       //print stars '*' equal to the number the user inputed
+/*
+       x=parseInt(prompt("Enter the number of stars"))
+       while (true){
+        document.write(`*`)
+        x--
+        if (x==0){break}
+       }
+       */
+      //Ex4
+      /*
+       x=parseInt(prompt("Enter the number of stars"))
+       while (x!=0){
+        n=x
+        while(n>10){
+            n=Math.floor(n/10)
+        }
+        document.write(`${x} : ${n}<br>`)
+        x=parseInt(prompt("Enter the number of stars"))
+       }
+       */
+      //Ex5
+      //get a number from the user (prompt)
+      // print a triangle of `*` starting from 1 and printing a number of stars up to the number the user prompted
+      /*
+      x=parseInt(prompt("Enter the number of stars"))
+      n=1
+      stars=1
+      while (true){
+        if(x<n){break}
+        stars=n
+        while (true){
+            document.write(`*`)
+            stars--
+            if (stars==0){break}
+       }
+       document.write(`<br>`)
+       n++
+    }
+    */
+   
+    </script>
+</body>
+</html>
